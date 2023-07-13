@@ -1,0 +1,87 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #210631;
+    color: white;
+    padding: 0px;
+    font-family: 'Sora', sans-serif;
+    overflow: hidden;
+}
+body a {
+    color: white;
+}
+
+header {
+    background-color:#030817;
+    color: white;
+    padding: 20px 80px;
+    margin: 0px;
+}
+
+header h1 {
+    color: white;
+}
+
+.red {
+    color: #d1271b;
+}
+
+.holder {
+    padding: 100px;
+    font-family: 'Sora', sans-serif;
+}
+
+.right {
+    position: absolute;
+    right: 50px;
+}
+
+footer {
+    padding: 30px;
+    border: none;
+    background-color: #030817;
+}
+
+.delay {
+    position: absolute;
+    margin-top: 1000px;
+}
+
+.delay {
+    transition-delay: 2s, 4ms;
+    transition-durition: 4s;
+    transition: visibility visible, margin-top 50px;
+}
+
+.2 {
+    transition-delay: 5s, 4ms;
+}
+
+.no-link {
+    text-decoration: none;
+}
+
+.slide-on-action {
+    transition-delay: 2s, 4ms;
+    transition-durition: 4s;
+    transition: visibility visible, margin-top 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: stack;
+}
